@@ -1,0 +1,59 @@
+# Chart.yaml
+
+# (2024-08-10)
+
+# Generic library for Helm charts, (c) 2024 Lazarus Long <lazarus.long@sapo.pt>
+
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later
+# version.
+
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Modified:
+#       2024-08-10 - Initial version
+---
+apiVersion: v2
+name: lib
+version: 0.0.0
+#kubeVersion: >=1.25.0
+description: Generic library for Helm charts
+type: library
+keywords:
+  - library
+  - lib
+  - shared
+  - building-block
+  - snippet
+  - reuse
+  - misc
+home: "https://lazarusllong.github.io/charts/lib"
+sources:
+  - "https://github.com/lazarusllong/charts/tree/main/lib"
+#dependencies:
+#  - name: dep 
+#    version: 0.0.0
+#    repository: "oci://dep"
+#    condition: dep.enabled,global.dep.enabled
+#    tags:
+#      - lib-dep
+#    import-values:
+#      - child: exports
+#        parent: dep
+#    alias: dep
+maintainers:
+  - name: Lazarus Long
+    email: lazarus.long@sapo.pt
+    url: "https://lazarusllong.github.io"
+icon: "https://lazarusllong.github.io/charts/images/lib.png"
+appVersion: "0.0.0"
+deprecated: false
+annotations:
+  sections: main,utils
+---
