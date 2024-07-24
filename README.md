@@ -1,4 +1,4 @@
 # charts
-## *Assorted Helm charts*
-### Available charts:
-- [**lib**](https://github.com/lazarusllong/charts/tree/main/lib) Generic [Helm](https://helm.sh) library chart
+### *Assorted Helm charts*
+#### Available charts:
+- ![lib](images/lib.png)[**lib**](lib) Generic [Helm](https://helm.sh) library chart
