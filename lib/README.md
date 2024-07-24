@@ -10,7 +10,7 @@ Generic library for Helm charts
 
 | Name | Email | Url |
 | ---- | ------ | --- |
-| Lazarus Long |  | <https://lazarusllong.github.io> |
+| Lazarus Long | <lazarus.long@sapo.pt> | <https://lazarusllong.github.io> |
 
 ## Source Code
 
