@@ -3,7 +3,7 @@ protocol: page
 title: Generic Helm library chart
 permalink: /lib
 ---
-# charts/lib
+# [/](/)[charts](/charts)/lib
 
 ![center](images/lib.png)
 
